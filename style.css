@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800,900&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #131419
+
+}
+
+.selection
+{
+    background: #131419
+    display: block;
+    border-radius: 10px;
+    position: relative;
+    width: 400px;
+    padding: 40px 40px 60px;
+    text-align: center;
+    box-shadow: -5px -5px 10px rgba(255,255,255,0.05),
+                5px 5px 15px rgba(0,0,0,0.5);
+}
+
+/*.wrapper
+{
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 960px;
+    padding-right: 10px;
+    padding-left: 10px;
+}*/
+
+.title-name
+{
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    font-weight: 1000;
+    /*text-align: center;*/
+    /*margin-top: 10px;*/
+}
+
+a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    text-decoration: none;
+    color: initial;
+}
+
+.selection h2
+{
+    color: #c7c7c7;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+
+}
+
+.selection .buttons
+{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.selection .buttons a
+{
+    font-size: 18px;
+    display: block;
+    width: 70%;
+    height: 38px;
+    margin: auto;
+    background: #131419;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    padding: 5px 15px;
+    color: #7A1C1C;
+    box-shadow: inset -2px -2px 6px rgba(255,255,255,0.1),
+                inset 2px 2px 6px rgba(0,0,0,0.8);
+}
+
+.selection .buttons a
+{
+    margin-top: 0px;
+    box-shadow: -2px -2px 6px rgba(255,255,255,0.1),
+                2px 2px 6px rgba(0,0,0,0.8);
+}
+
+.selection .buttons a:active
+{
+    color: #006c9c;
+    margin-top: 0px;
+    box-shadow: inset -2px -2px 6px rgba(255,255,255,0.1),
+                inset 2px 2px 6px rgba(0,0,0,0.8);
+}
