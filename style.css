@@ -30,15 +30,6 @@ body
                 5px 5px 15px rgba(0,0,0,0.5);
 }
 
-/*.wrapper
-{
-    margin-right: auto;
-    margin-left: auto;
-    max-width: 960px;
-    padding-right: 10px;
-    padding-left: 10px;
-}*/
-
 .title-name
 {
     font-family: 'Poppins', sans-serif;
@@ -49,8 +40,8 @@ body
 }
 
 a.button {
-    -webkit-appearance: button;
-    -moz-appearance: button;
+    /*-webkit-appearance: button;*/
+    /*-moz-appearance: button;*/
     appearance: button;
     text-decoration: none;
     color: initial;
