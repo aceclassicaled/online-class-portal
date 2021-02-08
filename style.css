@@ -84,7 +84,8 @@ a.button {
     outline: none;
     border-radius: 40px;
     padding: 5px 15px;
-    color: #7A1C1C;
+    /*color: #7A1C1C;*/
+    color: #006c9c;
     box-shadow: inset -2px -2px 6px rgba(255,255,255,0.1),
                 inset 2px 2px 6px rgba(0,0,0,0.8);
 }
