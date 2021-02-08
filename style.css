@@ -83,6 +83,7 @@ a.button {
 .selection .math-buttons a
 {
     width: 100%;
+    font-size: 16px;
 }
 
 .selection .latin-buttons a
